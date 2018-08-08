@@ -1,0 +1,201 @@
+body{
+    background-color: rgb(167, 167, 167);
+    
+}
+
+#header{
+    
+    background: red;
+    border-top-right-radius: 20px;
+    border-top-left-radius: 20px;
+    padding-top: 1%;
+    width: auto;
+    text-align: left;
+    box-shadow: 0 0 10px #3c3c3c;
+    font-family: fantasy;
+    color: white;
+}
+
+#h2{
+    padding-left: 2%;
+    font-size: 40px;
+}
+
+#com{
+    font-size: 25px; 
+    color: white;
+}
+
+
+p{
+    color: red;
+    text-align: left;
+    padding-left: 2%;
+}
+
+p.error{
+    text-align: center;
+    font-size: 12px;
+    padding-left: 20%;
+    color: rgba(199, 33, 33, 0.905);
+    text-shadow: 0 0 1px rgb(214, 59, 59);
+
+}
+
+span{
+    color: red;
+}
+
+form{
+    margin: 0 auto;
+    width: 60%;
+   font-family: fantasy;
+   background-color: white;
+   border-style: none;
+   border-bottom-left-radius: 20px;
+   border-bottom-right-radius: 20px;
+   box-shadow: 0 0 10px #3c3c3c;
+   border-top-right-radius: 20px;
+   border-top-left-radius: 20px;
+  
+}
+
+form#signup h2#h22{
+    color: rgb(45, 45, 45);
+    text-shadow: 0 0 2px rgb(61, 61, 61);
+    padding-left: 2%;
+}
+
+div.legend{
+    background-color: rgb(187, 187, 187);
+    color: rgb(45, 45, 45);
+    font-size: 24px;
+    width: 80%;
+    margin: 0 auto;
+    text-align: left;
+   
+}
+
+form fieldset{
+    background-color: rgb(237, 237, 237);
+    margin: 2%;
+    border-style: none;
+}
+
+div{
+    padding-right: 20%;
+    text-align: right;
+    border-style: none;
+}
+
+div input[type=text]{
+    width: 55%;
+    border-radius: 4px;
+    box-shadow: 4px 4px 2px #b5b5b5;
+    margin: 10px;
+}
+
+div input[type=password]{
+    width: 55%;
+    border-radius: 4px;
+    box-shadow: 4px 4px 2px #b5b5b5;
+    margin: 10px;
+}
+
+div input[type=number]{
+    width: 55%;
+    border-radius: 4px;
+    box-shadow: 4px 4px #b5b5b5;
+    margin: 10px;
+}
+
+div input[list=countries]{
+    width: 55%;
+    border-radius: 4px;
+    box-shadow: 4px 4px 2px #b5b5b5;
+    margin: 10px;
+}
+
+div input[type=file]{
+    width: 55%;
+    border-radius: 4px;
+    box-shadow: 4px 4px 2px #b5b5b5;
+    margin: 10px;
+}
+
+div input[type=tel]{
+    width: 55%;
+    border-radius: 4px;
+    box-shadow: 4px 4px 2px #b5b5b5;
+    margin: 10px;
+}
+
+div input[type=email]{
+    width: 55%;
+    border-radius: 4px;
+    box-shadow: 4px 4px 2px #b5b5b5;
+    margin: 10px;
+}
+
+div textarea{
+    width: 55%;
+    border-radius: 4px;
+    box-shadow: 4px 4px 2px #b5b5b5;
+    margin: 10px;
+}
+
+div select{
+    width: 56%;
+    border-radius: 4px;
+    box-shadow: 4px 4px 2px #b5b5b5;
+    margin: 10px;
+}
+
+fieldset.edu{
+  
+    margin-left: 40%;
+    width: 60%;
+    border-radius: 4px;
+    text-align: left;
+    border-style: solid;
+    background-color: white;
+    border-color: #808080;
+    border-width: 1px;
+    box-shadow: 4px 4px 2px #b5b5b5;
+}
+
+fieldset.edu legend{
+
+    font-size: 16px;
+}
+
+fieldset.edu input[type=radio]{
+    text-align: left;
+    box-shadow: 2px 2px 2px #8c8c8c;
+}
+
+
+div#button{
+    text-align: center;
+    padding: 2%;
+}
+
+div#button input#reset{
+    color: white;
+    background: red;
+    border-radius: 4px;
+    width: 15%;
+    text-align: center;
+    padding: 2px;
+    font-weight: bold;
+}
+
+div#button input[type=submit]{
+    color: white;
+    background: red;
+    border-radius: 4px;
+    width: 15%;
+    text-align: center;
+    padding: 2px;
+    font-weight: bolder;
+}

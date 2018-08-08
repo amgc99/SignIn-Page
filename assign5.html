@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+
+<html>
+
+	<head>
+		<link rel="stylesheet" href="css/assign5.css">
+		<script src="js/assign5.js"></script>
+		<title>Sign up</title>
+	</head>
+	<body>
+		<form id="signup" action="https://httpbin.org/post" method="POST">
+			<div id="header"><h2 id="h2">JobSearch<span id="com">.com</span></h2></div>	
+			<h2 id="h22">Create Account</h2>
+			<p>* Required Information</p>
+			<fieldset>
+				<div class="legend">Basic Information</div>
+					<div>
+						Email<span >*</span>
+						<input type="email" name="email" id="email" autofocus required/><br>
+						Password<span >*</span>
+						<input type="password" name="passw" id="passw" onchange="pswChk()" required/><br>
+						Retype Password<span >*</span>
+						<input type="password" name= "passw2" id="passw2" onchange="matchChk()" required/><br>
+						First Name<span >*</span>
+						<input type="text" name="fname" id="fname" onchange="NameChk(event)" required/><br>
+						Last Name<span >*</span>
+						<input type="text" name="lname" id="lname" onchange="NameChk(event)" required/><br>
+						Phone Number<span>*</span>
+						<input type="tel" name="phone" id="phone" placeholder="999-999-9999" onchange="NumChk()" required/><br>
+						Address<span >*</span>
+						<input type="text" name="home" id="home" required/><br>
+						City<span >*</span>
+						<input type="text" name="city" id="city" required/><br>
+						Province<span >*</span>
+						<select name="pt" id="pt">
+							<optgroup label="Provinces">
+								<option value="AB">Alberta</option>
+								<option value="BC">British Columbia</option>
+								<option value="MB">Manitoba</option>
+								<option value="NB">New Brunswick</option>
+								<option value="NL">Newfoundland and Labrador</option>
+								<option value="NS">Nova Scotia</option>
+								<option value="ON">Ontario</option>
+								<option value="PE">Prince Edward Island</option>
+								<option value="QC">Quebec</option>
+								<option value="SK">Saskatchewan</option>
+							</optgroup>
+							<optgroup label="Territories">
+								<option value="NT">Northwest Territories</option>
+								<option value="NU">Nunavut</option>
+								<option value="YT">Yukon</option>
+							</optgroup>
+						</select><br>
+						Country<span>*</span>
+						<input list="countries" required>
+						<datalist id="countries">
+								<option value="Canada">
+								<option value="United States">
+								<option value="Bolivia">
+								<option value="Argentina">
+								<option value="Dominican Republic">
+						</datalist>
+					</div>
+			</fieldset>
+
+			<fieldset>
+					<div class="legend">Education</div>
+					<div id="container">
+						School<span>*</span>
+						<input type="text" name="school" id="school" required><br>
+						Program<span>*</span>
+						<input type="text" name="program" id="program" required><br>
+						Education Level<span>*</span>
+						<select name="education" id="education">					
+							<option value=" ">-select-</option>
+							<option>Technical Diploma</option>
+							<option>College Diploma</option>
+							<option>Bachelor's Degree</option>
+							<option>Master's Degree</option>
+							<option>Others</option>	
+						</select><br>
+						<fieldset class="edu">
+							<legend>Education Status</legend>
+							<input type="radio" id="status" name="r1" required/><label for="status">Graduated</label><br>
+							<input type="radio" id="status2" name="r1"/><label for="status2">Current Enrolled</label><br>
+							<input type="radio" id="status3" name="r1"/><label for="status3">Did Not Graduate</label><br>
+						</fieldset>
+					
+						Graduation Date<span>*</span>
+						<input type="text" name="graddate" id="graddate" required><br>
+					</div>
+			</fieldset>
+
+			<fieldset>
+				<div class="legend">Work Experience: </div>
+				<div>
+					Employer: 
+					<input type="text" id="employer" name="employer"><br>
+					Job Title: 
+					<input type="text" id="jobTitle" name="jobTitle"><br>
+					Job Duty: 
+					<textarea id="duty" name="duty"></textarea><br>
+					Worked Year: 
+					<input type="number" name="years" id="years" min="1" max="20"/><br>
+				</div>
+			</fieldset>
+			<fieldset>
+				<div class="legend">Attachments</div>
+				<div>
+					Attachments: 
+					<input type="file" name="att" id="att" multiple/>
+				</div>
+			</fieldset>
+			<div id="button">
+					<input type="reset" name="reset" id="reset" value="Reset"/>
+					<input type="submit" name="submit" id="submit" value="Submit"/>
+			</div>
+		</form>		
+		
+	</body>
+
+</html>
