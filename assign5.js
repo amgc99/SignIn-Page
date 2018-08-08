@@ -68,7 +68,6 @@ function pswChk()
        
     }
 
-    validate.num_Chk++;
 }
 
 function matchChk()
