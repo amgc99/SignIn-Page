@@ -1,8 +1,5 @@
 
 
-var validate = {psw_Chk: 0, match_Chk: 0, };
-
-
 function pswChk()
 {
     var psw = document.getElementById("passw");
